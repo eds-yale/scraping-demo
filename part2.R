@@ -78,7 +78,7 @@ keywordsumm <-
     max.mention = max(count)
   )
 
-write.csv(keywordsumm, "E:/Yale/EDSY/scripting scraping/Devin keywords/keywords summary.csv", row.names = FALSE)
+write.csv(keywordsumm, "keywords summary.csv", row.names = FALSE)
 
 library(ggplot2)
 
